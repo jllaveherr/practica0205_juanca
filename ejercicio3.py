@@ -5,3 +5,4 @@ if producto not in productos:
 else:
     numero_unidades = float(input("¿Cuántas unidades quieres? "))
     print(numero_unidades, "unidades de", producto, "valen", productos[producto] * numero_unidades, "€")
+
